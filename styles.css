@@ -45,15 +45,38 @@ header{
     
 }
 .body{
-    margin: 0 16px;
+    margin: 0 16px 45px 16px;
 }
 .title{
     font-size: 1.5em;
-    color:#111729;
     margin-bottom: 16px;
 }
 .description{
     line-height: 25px;
     font-size: 0.9em;
     color: #677489;
+
 }
+h1{
+    color:#111729;
+
+}
+
+.footer{
+    margin: 0 16px;
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+    align-items: center;
+    line-height: 20px;
+
+}
+.footer-image{
+    border-radius: 50%;
+    object-fit: contain;
+    width: 12%;    
+}
+.footer-p{
+    color: #677489;
+}
+
