@@ -1,5 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato"; 
+    
+}
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    min-width: 640px;
+    background-color: #F2F5F9;
+  }
+.card{
+    margin-top: 164px;
+    max-width: 360px;   
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.card-hero_image{
+    border-radius: 10px;
 
-main{
-    background-color: red;
+    object-fit: contain;
+    width: 100%;
+}
+header{
+    position: relative;
+}
+.div-img{
+ 
+  bottom:-15px;
+  background-color: blue;
+
+
+}
+.card-overlay{
+    object-fit: contain;
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    
+}
+.body{
+    margin: 0 16px;
+}
+.title{
+    font-size: 1.5em;
+    color:#111729;
+    margin-bottom: 16px;
+}
+.description{
+    line-height: 25px;
+    font-size: 0.9em;
+    color: #677489;
 }
